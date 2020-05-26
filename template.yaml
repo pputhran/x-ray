@@ -31,7 +31,7 @@ Resources:
       Handler: app.lambdaHandler
       Runtime: nodejs12.x
       Tracing: Active
-      Role: arn:aws:iam::963887453151:role/lambda-general
+      Role: <>
       Events:
         HelloWorld:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
